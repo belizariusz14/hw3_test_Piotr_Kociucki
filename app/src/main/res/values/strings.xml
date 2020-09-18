@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">hw3_test</string>
+    <string name="delete_question">Delete it?</string>
+    <string name="dialog_confirm">yes, delete it</string>
+    <string name="edit_confirm">yes, edit it</string>
+    <string name="dialog_cancel">cancel</string>
+    <string name="Publisher">publisher</string>
+    <string name="Title">title</string>
+    <string name="Surname">surname</string>
+    <string name="Name">name</string>
+    <string name="add_book">add book</string>
+    <string name="Name_Surname">author: Name Surname</string>
+    <string name="InfoPhone">info: title</string>
+    <string name="InfoBirthday">info: publisher</string>
+    <string name="ISBN">ISBN</string>
+    <string name="Id">id</string>
+    <string name="item_selected_msg">Book info</string>
+    <string name="delete_dialog_tag">Delete it?</string>
+    <string name="editdialog">Edit it?</string>
+    <string name="add">Add</string>
+    <string name="deleteicon">delete icon</string>
+    <string name="saveButton">save button</string>
+    <string name="id">id</string>
+    <string name="thisFieldCannotBeEmpty">this field cannot be empty</string>
+</resources>
