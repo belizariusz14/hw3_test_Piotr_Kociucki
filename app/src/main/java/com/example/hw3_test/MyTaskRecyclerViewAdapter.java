@@ -42,6 +42,10 @@ public class MyTaskRecyclerViewAdapter extends RecyclerView.Adapter<MyTaskRecycl
         Book book = mValues.get(position);
         holder.mItem = book;
         holder.mTitleView.setText(book.Title);
+        holder.mNameView.setText(book.Name);
+        holder.mSurnameView.setText(book.Surname);
+        holder.mPublisherView.setText(book.Publisher);
+        holder.mISBNView.setText(book.ISBN);
 
        // Context context= holder.mView.getContext();
 
@@ -88,6 +92,10 @@ public class MyTaskRecyclerViewAdapter extends RecyclerView.Adapter<MyTaskRecycl
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;
         public final TextView mTitleView;
+        public final TextView mNameView;
+        public final TextView mSurnameView;
+        public final TextView mPublisherView;
+        public final TextView mISBNView;
         public Book mItem;
         public ImageButton deleteButton;
 
@@ -100,6 +108,11 @@ public class MyTaskRecyclerViewAdapter extends RecyclerView.Adapter<MyTaskRecycl
             //view.setBackgroundColor(Color.rgb(119, 250, 250));
             //mAvatarView = view.findViewById(R.id.contact_avatar);
             mTitleView = (TextView) view.findViewById(R.id.InfoTitle);
+            mNameView = (TextView) view.findViewById(R.id.InfoName);
+            mSurnameView = (TextView) view.findViewById(R.id.Surname);
+            mPublisherView = (TextView) view.findViewById(R.id.InfoPublisher);
+            mISBNView = (TextView) view.findViewById(R.id.InfoISBN);
+
             deleteButton = view.findViewById(R.id.book_delete);
         }
 
